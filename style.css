@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  background: url(images/paint.jpg) center center fixed;
+  background-size: cover;
+}
+
+#header {
+  background: linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -webkit-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -moz-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -o-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -ms-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  height:80px;
+  width: 500px;
+  margin: 10px auto;
+  font-size: 3em;
+  color:#ffffff;
+  line-height: 70px;
+}
+
+
+
+#slider {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.input {
+  height: 30px;
+  font-size: 1.3em;
+}
+
+#thicknessInput {
+  position: relative;
+}
+
+
+#circle {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#container {
+  width: 500px;
+  height: 400px;
+  border: 1px solid #ffffff;
+  margin: 10px auto;
+}
+
+#paint {
+  background-color: #ffffff;
+  cursor: crosshair;
+}
+.inputContainer2 {
+  width: 399px;
+  margin: 0px auto;
+}
+
+.input2 {
+  width: 133px;
+  color:#ffffff;
+  font-size: 1.3em;
+  float:left;
+
+}
+
+.button {
+  background: linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -webkit-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -moz-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -o-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  background: -ms-linear-gradient(rgba(240, 237, 246, 0.7),rgba(124, 125, 125, 0.7));
+  box-shadow: 0px 4px;
+  -webkit-box-shadow: 0px 4px;
+  -moz-box-shadow: 0px 4px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  position:relative;
+}
+
+.button:hover {
+  background: linear-gradient(rgb(240, 237, 246),rgb(124, 125, 125));
+
+}
+
+.button:active{
+  top:4px;
+  box-shadow: 0px 0px;
+}
+
+.eraseMode {
+  background-color: red;
+  color:white;
+}
